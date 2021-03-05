@@ -10,6 +10,17 @@
     <link rel="sortcut icon" href="node_modules/bootstrap/img/Icon.png" type="image/x-icon">
 
     <title>Dacon Construtora</title> 
+
+    <style>
+      li::marker {
+        color: red; /* bullet color */
+      }
+      li {
+        color: black /* text color */
+      }
+    </style>
+
+
   </head> 
  
   <body style="font-family: Helvetica;"> <!-- Mudar Estilo Aqui-->
@@ -85,7 +96,7 @@
       <div class="container" style="padding-bottom: 90px ;">
         <div class="row">
           <div class="col-4">
-            <div class="card border border-white"> <!--Trocar a cor do card-->
+            <div class="card border border-success"> <!--Trocar a cor do card-->
               <div class="card-body">
                 <h5 class="text-center">Missão</h5>
                 <p class="text-justify">Prestar os serviços de forma eficiente priorizando sempre a segurança,
@@ -95,7 +106,7 @@
           </div> 
 
           <div class="col-4">
-            <div class="card border border-white" >
+            <div class="card border border-success" >
               <div class="card-body">
                 <h5 class="text-center">Visão</h5>
                 <p class="text-justify">Ser referência no setor elétrico brasileiro, reconhecida pelas boas práticas,
@@ -105,7 +116,7 @@
           </div>
 
           <div class="col-4">
-            <div class="card border border-white">
+            <div class="card border border-success">
               <div class="card-body">
                 <h5 class="text-center">Valores</h5>
                 <p class="text-justify">Ética, respeito, comprometimento, responsabilidade, integridade, qualidade, resultado, transparência, inovação.</p>
@@ -166,35 +177,32 @@
           </div> 
           <br>
         </div>
-      </div>
+      </div> 
 
       <div class="text-center" style="padding-bottom: 70px;">
         <img class="rounded text-center" src="node_modules/bootstrap/img/exemplo_iluminacao.png" >
       </div>
 
-
-      <div class="container text-success text-center"> <!--Obras em andamento e enceradas-->
-        <h2>Obras em Andamento</h2>
-      </div>
       <br>
       <div class="container" style="padding: 50px 0px;">
         <div class="row">
           <div class="col text-center">
             <img src="node_modules/bootstrap/img/mapa1.png">
-          </div>
+          </div> 
           <div class="col text-center"> 
-            <h5 class="">Região Sul</h5><br> 
-            <ul style="padding: 0px 150px;">
-              <li>Sapucaia do Sul - RS</li>
-              <li>Lajeado - RS</li> 
-              <li>Guaporé - RS</li>
-              <li>Guaíba - RS</li>
+            <h3 class="text-success">Obras Finalizadas</h3><br> 
+            <ul style="padding: 0px 150px;" >
+              <li> Sapucaia do Sul - RS</li> 
             </ul>
             <br><br>
-            <h5>Região Sudeste</h5><br> 
-            <ul style="padding: 0px 150px;">
+            <h3 class="text-success">Obras em Andamento</h3><br> 
+            <ul style="padding: 0px 150px;" >
+              <li>Estrela - RS</li>
+              <li>Guaíba - RS</li>
+              <li>Guaporé - RS</li>
+              <li>Lajeado - RS</li>
               <li>Monte Sião - MG</li>
-              <li>Piracicaba - MG</li>
+              <li>Piracicaba - SP</li>
             </ul>
           </div>
         </div>   
